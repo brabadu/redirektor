@@ -1,0 +1,18 @@
+{
+  "name": "Redirektor",
+  "version": "0.2",
+  "manifest_version": 2,
+  "description": "Changes host for current tab",
+  "background": { "scripts": [
+    "jsuri-1.1.1.min.js",
+    "background.js"
+  ] },
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ]
+}
